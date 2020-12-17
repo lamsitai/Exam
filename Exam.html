@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam</title>
+    <link rel="stylesheet" href="Exam.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+<section class="container">
+    <div>
+        <h1 class="text-center text-uppercase text-danger">matrimontial survey</h1>
+    </div>
+    <div>
+        <h2 class="text-primary">Survey Question</h2>
+        <div id="first-table">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="number" name="phone"></td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label><input type="checkbox" name="male"></label>Male
+                        <label><input type="checkbox" name="female"></label>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="age"></td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>
+                        <label><input type="checkbox" name="BCA"></label>BCA
+                        <label><input type="checkbox" name="BA"></label>BA
+                        <label><input type="checkbox" name="BSC"></label>BSC
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <button onclick="continue()">Continue</button>
+                <input type="reset" name="reset" value="Reset">
+            </div>
+            <script type="text/javascript">
+                function continue() {
+
+                }
+            </script>
+        </div>
+        <div id="second-table">
+            <table>
+                <tr>
+                    <td>How often you are surffing this website</td>
+                    <td>
+                        <label><input type="checkbox" name="daily"></label>Daily
+                        <label><input type="checkbox" name="weekly"></label>Weekly
+                        <label><input type="checkbox" name="monthly"></label>Monthly
+                    </td>
+                </tr>
+                <tr>
+                    <td>Which matrimonial site you visit mostly</td>
+                    <td><input type="text" name="site"></td>
+                </tr>
+                <tr>
+                    <td>Where you use Internet?</td>
+                    <td>
+                        <label><input type="checkbox"></label>Home
+                        <label><input type="checkbox"></label>Office
+                        <label><input type="checkbox"></label>Cyber Cafe
+                    </td>
+                </tr>
+                <tr>
+                    <td>Are you feel services provide by us?</td>
+                    <td>
+                        <label><input type="checkbox"></label>Fair
+                        <label><input type="checkbox"></label>Gold
+                        <label><input type="checkbox"></label>Very Good
+                        <label><input type="checkbox"></label>Excellence
+                    </td>
+                </tr>
+                <tr>
+                    <td>Which type of member you are</td>
+                    <td>
+                        <label><input type="checkbox"></label>Free
+                        <label><input type="checkbox"></label>Premium
+                        <label><input type="checkbox"></label>Gold
+                    </td>
+                </tr>
+                <tr>
+                    <td>If you are a free member, would like to take paid service?</td>
+                    <td>
+                        <label><input type="checkbox"></label>Yes
+                        <label><input type="checkbox"></label>No
+                        <label><input type="checkbox"></label>I'll think
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rate this website</td>
+                    <td>
+                        <label><input type="checkbox"></label>Below 5
+                        <label><input type="checkbox"></label>5 to 10
+                        <label><input type="checkbox"></label>More than 10
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <button onclick="submit()">Submit</button>
+                <input type="reset" name="reset" value="Reset">
+            </div>
+            <script type="text/javascript">
+                function submit() {
+                    alert("Thanks for participating into Survey")
+                }
+            </script>
+        </div>
+    </div>
+</section>
+</body>
+</html>
