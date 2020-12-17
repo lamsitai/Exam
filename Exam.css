@@ -1,0 +1,7 @@
+#first-table{
+    display: block;
+}
+#second-table{
+    display: none;
+    position: absolute;
+}

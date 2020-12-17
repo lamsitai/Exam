@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<section class="container">
+<section class="container box">
     <div>
         <h1 class="text-center text-uppercase text-danger">matrimontial survey</h1>
     </div>
@@ -53,12 +53,13 @@
                 </tr>
             </table>
             <div>
-                <button onclick="continue()">Continue</button>
+                <button onclick="next()">Continue</button>
                 <input type="reset" name="reset" value="Reset">
             </div>
             <script type="text/javascript">
-                function continue() {
-
+                function next() {
+                    document.getElementById("first-table").style.display = "none";
+                    document.getElementById("second-table").style.display = "block";
                 }
             </script>
         </div>
